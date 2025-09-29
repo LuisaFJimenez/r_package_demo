@@ -1,21 +1,21 @@
-Package: <package name>
-Title: <title>
+Package: TinyHelpRs
+Title: Tiny Helpers: Count and Multiply
 Version: 0.0.1
 Authors@R: c(
-  person(given = ..., family = ..., role = c("aut", "cre"), email = ...)
+  person(given = Luisa Fernanda, family = Jimenez Soto, role = c("aut", "cre"), email = l.jimenez@lmu.de)
   )
-Description: <description>
-License: ...
-URL: ...
-BugReports: ...
+Description: A tiny package with two helpers: count elements or occurrences
+    in a vector, and vectorised multiplication.
+License: MIT + file LICENSE
+URL: DOI.exotoxinslab.com
+BugReports: DOI.exotoxinslab.com/issues/ 
 ByteCompile: true
 Encoding: UTF-8
 Config/testthat/edition: 3
 Config/testthat/parallel: true
 Roxygen: list(markdown = TRUE)
 Depends:
-    ...
-Imports:
-    ...
+    R ( >= 3.5)
 Suggests:
     testthat
+RoxygenNote: 7.3.2
